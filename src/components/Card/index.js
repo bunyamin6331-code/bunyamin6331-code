@@ -1,6 +1,6 @@
  import { Card, Image, Text, Button, Group } from '@mantine/core';
  import "./Card.css";
- const CardComponent = ({title, par}) => {
+ const CardComponent = ({title, par, lesson, i}) => {
     console.log(i);
     return  (   
         <Card  shadow="sm"
