@@ -3,6 +3,7 @@ import './App.css';
 import Card from './components/Card';
 import  { useState } from 'react';
 
+
 const App = () => {
   const [title, setTitle] = useState("");
   const [paragraf, setParagraf] = useState("");
@@ -32,7 +33,7 @@ setList([
       id:5,
       title, 
       par: paragraf
-    },
+    }
     ]);
   };
   return (
@@ -62,6 +63,12 @@ setList([
            par={par}
             title={title}
             i= {i}
+            click= {()  => {
+              let copyList = [...list];
+              copyList.splice(i,1);
+              setList(copyList);
+              console.log("Dışarıdan tıklanıldı")
+               }}
              />
              </Grid.Col>
         ))}
