@@ -15,7 +15,7 @@ const App = () => {
    },
   { 
     id: 2,
-    title: "dağ 2", 
+    title: "dağ 3", 
     par: "açıklama 2"
    },
   { 
