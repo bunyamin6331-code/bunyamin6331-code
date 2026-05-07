@@ -30,7 +30,7 @@
       </Text>
 
       <Button color="blue" fullWidth mt="md">
-        Book classic tour now 
+        Book classic tour
       </Button>
     </Card>
   );
